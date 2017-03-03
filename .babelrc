@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "es2015",
+        "stage-0",
+        "react",
+        "stage-3"
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "transform-decorators-legacy"
+    ],
+    "env":     {
+        "production": {
+            "plugins": [
+                "babel-plugin-dev-expression"
+            ]
+        }
+    }
+}
